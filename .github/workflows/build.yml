@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       REGISTRY: ghcr.io            # 配置 GitHub Container Registry
-      IMAGE_NAME: gateway   # 你想要推送的镜像名称
+      IMAGE_NAME: nftdance/gateway   # 你想要推送的镜像名称
     timeout-minutes: 45
     steps:
       - name: Check out
